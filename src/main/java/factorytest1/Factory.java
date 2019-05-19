@@ -1,7 +1,6 @@
 package factorytest1;
 
 public abstract class Factory {
-  
   public Action caseplay(String name) {
     
     switch(name) {

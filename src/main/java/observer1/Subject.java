@@ -1,0 +1,7 @@
+package observer1;
+
+public interface Subject {
+  public void add(Observer o);
+  public void remove(Observer o);
+  public void notify(Observer o);
+}
